@@ -26,6 +26,7 @@
   font-family: "Arvo", serif;
   color: black;
   font-size: 1.5rem;
+  margin-right: 0px;
 }
 
 .login-btn:hover {
@@ -34,7 +35,7 @@
 }
 
 .signup-btn {
-  margin-right: 500px;
+  margin-right: 50px;
   font-family: "Arvo", serif;
   color: black;
   border-color: black;
@@ -49,7 +50,8 @@
 }
 
 .navbar-expand-lg .navbar-collapse {
-  margin-left: 950px;
+  /*changed to push buttons left*/
+  margin-left: 850px;
 }
 
 .landing-page-div {
@@ -87,7 +89,7 @@
 }
 
 .schedule-loc {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 500px;
   width: 350px;
 }
@@ -104,7 +106,7 @@
 .landing-text {
   width: 30%;
   float: right;
-  margin-top: -1750px;
+  margin-top: -450px;
   text-align: center;
   margin-right: 100px;
   font-family: "Arvo", serif;
