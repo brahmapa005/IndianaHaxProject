@@ -265,3 +265,40 @@
 .sl-btn{
   margin-left: 280px;
 }
+.schedule-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.schedule-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:50%;
+  background-color: #D1FAF2;
+}
+.schedule2-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:50%;
+}
+
+.schedule-submit-btn {
+  margin-right: 295px;
+}
+
+.schedule-text {
+  font-family: "Arvo", serif;
+  margin-top: 30px;
+}
+
+.schedule-text2 {
+  margin-left: 280px;
+}
+
+.sched-input {
+  width: 300px;
+}
