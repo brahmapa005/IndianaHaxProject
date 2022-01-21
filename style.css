@@ -1,11 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 
+.logo-div {
+  width: 100px;
+  height: 100px;
+}
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
 .bg-light {
   background-color: #00cec9 !important;
 }
 
 .website-name-header {
-  font-size: 1.25rem;
+  font-size: 2rem;
   margin-bottom: 0px;
   font-family: "Arvo", serif;
 }
@@ -14,6 +25,8 @@
   border: none;
   font-family: "Arvo", serif;
   color: black;
+  font-size: 1.5rem;
+  margin-right: 0px;
 }
 
 .login-btn:hover {
@@ -22,10 +35,12 @@
 }
 
 .signup-btn {
-  margin-left: 20px;
+  margin-right: 50px;
   font-family: "Arvo", serif;
   color: black;
   border-color: black;
+  font-size: 1.5rem;
+
 }
 
 .signup-btn:hover {
@@ -35,7 +50,8 @@
 }
 
 .navbar-expand-lg .navbar-collapse {
-  margin-left: 950px;
+  /*changed to push buttons left*/
+  margin-left: 850px;
 }
 
 .landing-page-div {
@@ -73,7 +89,7 @@
 }
 
 .schedule-loc {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 500px;
   width: 350px;
 }
@@ -90,7 +106,7 @@
 .landing-text {
   width: 30%;
   float: right;
-  margin-top: -1750px;
+  margin-top: -450px;
   text-align: center;
   margin-right: 100px;
   font-family: "Arvo", serif;
@@ -159,3 +175,18 @@
   text-align: center;
 }
 
+.login-headline {
+  margin-top: 300px;
+}
+
+.login-img {
+  margin-top: 257px;
+}
+
+.signup-headline-1 {
+  margin-top: 300px;
+}
+
+.signup-img {
+  margin-top: 250px;
+}
