@@ -25,38 +25,47 @@
   <body>
     <div class="signup-div">
       <div class="signup-background">
-        <h1 class="headlines login-headline">You're on your way to a perfect schedule...</h1>
-        <img src="Images/wave1.svg" alt="">
+        <h1 class="headlines login-headline">
+          You're on your way to a perfect schedule...
+        </h1>
+        <img src="Images/wave1.svg" alt="" />
       </div>
       <div class="signup-content">
-        <form action="">
+        <form action="" class="form-login">
           <label for="email" class="form-inputs form-labels"
             >Enter your email:</label
           >
           <input
             type="email"
             id="email"
-            class="form-inputs form-inputs-box form-username"
+            class="form-inputs form-inputs-box form-username-login"
             name="email"
             value="default@example.com"
           />
-    
-          <label for="password" class="form-inputs form-labels">Password:</label>
+
+          <label for="password" class="form-inputs form-labels"
+            >Password:</label
+          >
           <input
             type="password"
             id="pwd"
-            class="form-inputs form-inputs-box form-pwd"
+            class="form-inputs form-inputs-box form-pwd-login"
             name="pwd"
             value="Password1234"
           />
-    
-          <input type="submit" class="form-submit-btn form-inputs form-submit" value="Submit" />
-        </form>
 
+          <a href=""
+            ><button
+              class="form-submit-btn form-inputs form-submit form-submit-login"
+            >
+              Submit
+            </button></a
+          >
+        </form>
       </div>
     </div>
 
-    <script type="module">
+    <!-- <script type="module">
       // Import the functions you need from the SDKs you need
       import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
       // TODO: Add SDKs for Firebase products that you want to use
@@ -74,9 +83,13 @@
     
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
+      const auth = firebase.auth();
+      const db = firebase.firestore();
+
+      // update firestore settings
+      db.settings({ timestampsInSnapshots: true });
     </script>
 
-    <script src="app.js" defer></script>
-    
+    <script src="app.js" type="module"></script> -->
   </body>
 </html>
