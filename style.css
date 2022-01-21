@@ -190,3 +190,69 @@
 .signup-img {
   margin-top: 250px;
 }
+.preferences-background {
+  
+  height: 140vh;
+  background-color: #D1FAF2;
+  display: flex;
+  width: 50%;
+  
+  align-items: center;
+  text-align: center;
+}
+.preferences-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.preferences-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:50%;
+}
+
+.preferences-img {
+  margin-top: 590px;
+}
+.logout-btn {
+  margin-right: 0px;
+  font-family: "Arvo", serif;
+  color: black;
+  border-color: black;
+  font-size: 1.5rem;
+  margin-left: 100px;
+
+}
+
+.logout-btn:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+.preferences-headlines {
+  margin-top: 300px;
+}
+
+.pref-labels {
+  width: 300px;
+}
+
+.preferences-labels {
+  font-size: 1.5rem;
+}
+
+.preferences-submit-btn {
+  display: block;
+  margin-top: 30px;
+  margin-left: 295px;
+  width: 140px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: white;
+  font-family: "Arvo", serif;
+  border: 1px solid black;
+  font-size: 1.5rem;
+}
