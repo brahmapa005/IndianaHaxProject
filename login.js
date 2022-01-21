@@ -38,7 +38,8 @@ const pwdInput = document.querySelector(".form-pwd-login");
 const submitBtn = document.querySelector(".form-submit-login");
 
 submitBtn.addEventListener("click", (e) => {
-    alert("HI");
+  window.location.href = "schedule.html";
+  alert("HI");
 
   const email = emailInput.value;
   const pwd = pwdInput.value;
@@ -52,7 +53,7 @@ submitBtn.addEventListener("click", (e) => {
       // Signed in
       const user = userCredential.user;
       console.log("IN");
-      window.location.href="schedule.html";
+      window.location.href = "schedule.html";
       // ...
     })
     .catch((error) => {

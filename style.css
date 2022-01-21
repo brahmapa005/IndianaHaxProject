@@ -40,10 +40,15 @@
   color: black;
   border-color: black;
   font-size: 1.5rem;
-
 }
 
 .signup-btn:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+.signup-btn:active {
   background-color: transparent;
   color: white;
   border-color: white;
@@ -116,6 +121,8 @@
   background-color: #00cec9;
   border-radius: 20px;
   padding: 5px;
+  /* border-bottom: 5px solid black; */
+  box-shadow: 8px 10px 5px #00cecba1;
 }
 
 .form-inputs {
@@ -143,6 +150,7 @@
   height: 50px;
   border-radius: 20px;
   border: none;
+  background-color: #00cec9;
 }
 
 .form-submit-btn:hover {
@@ -189,4 +197,11 @@
 
 .signup-img {
   margin-top: 250px;
+}
+
+.preferences {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
 }
