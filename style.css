@@ -273,22 +273,40 @@
 .sl-btn{
   margin-left: 280px;
 }
+.schedule-div {
+  display: flex;
+  flex-direction: row;
+}
 
 .schedule-content {
   display: flex;
-  width: 50%;
-  margin-top: 0px;
-  background-color: white;
-  font-family: "Arvo", serif;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:50%;
+  background-color: #D1FAF2;
+}
+.schedule2-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:50%;
 }
 
-.schedule-schedule {
-  display: flex;
-  width: 50%;
+.schedule-submit-btn {
+  margin-right: 295px;
+}
 
-  margin-top: 0px;
-  background-color: #00cecb54;
+.schedule-text {
   font-family: "Arvo", serif;
-  align-items: center;
+  margin-top: 30px;
+}
 
+.schedule-text2 {
+  margin-left: 280px;
+}
+
+.sched-input {
+  width: 300px;
 }
