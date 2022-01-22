@@ -1,3 +1,322 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+.logo-div {
+  width: 100px;
+  height: 100px;
+}
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.bg-light {
+  background-color: #00cec9 !important;
+}
+
+.website-name-header {
+  font-size: 2rem;
+  margin-bottom: 0px;
+  font-family: "Arvo", serif;
+}
+
+.login-btn {
+  border: none;
+  font-family: "Arvo", serif;
+  color: black;
+  font-size: 1.5rem;
+  margin-right: 0px;
+}
+
+.login-btn:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.signup-btn {
+  margin-right: 50px;
+  font-family: "Arvo", serif;
+  color: black;
+  border-color: black;
+  font-size: 1.5rem;
+}
+
+.signup-btn:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+.signup-btn:active {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+.navbar-expand-lg .navbar-collapse { */
+  /*changed to push buttons left*/
+  /* margin-left: 850px;
+}
+
+.landing-page-div {
+  height: 100vh;
+  width: 100%;
+}
+
+.blob-div {
+  width: 70%; */
+  /* margin: auto;
+  padding-top: 100px;
+  padding-left: 0px;
+  z-index: 100; */
+  /* padding-top: 25px;
+}
+
+.form-div {
+  width: 450px;
+  height: auto;
+  z-index: -300;
+} */
+
+/* .landing-imgs {
+  max-width: 100%;
+}
+
+.form-loc {
+  margin-top: -400px;
+}
+
+.thinking-loc {
+  margin-top: -550px;
+  margin-left: 450px;
+  width: 350px;
+}
+
+.schedule-loc {
+  margin-top: 50px;
+  margin-left: 500px;
+  width: 350px;
+}
+
+.line-loc {
+  margin-bottom: 900px;
+  margin-left: 500px;
+}
+
+.landing-page-imgs {
+  width: 70%;
+}
+
+.landing-text {
+  width: 30%;
+  float: right;
+  margin-top: -450px;
+  text-align: center;
+  margin-right: 100px;
+  font-family: "Arvo", serif;
+}
+
+.landing-text-h1 {
+  background-color: #00cec9;
+  border-radius: 20px;
+  padding: 5px; */
+  /* border-bottom: 5px solid black; */
+  /* box-shadow: 8px 10px 5px #00cecba1;
+}
+
+.form-inputs {
+  display: block;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.form-inputs-box {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.form-labels {
+  font-family: "Arvo", serif;
+  font-size: 2rem;
+}
+
+.form-submit-btn {
+  margin-top: 40px;
+  font-family: "Arvo", serif;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: #00cec9;
+}
+
+.form-submit-btn:hover {
+  background-color: #00cec9;
+}
+
+.signup-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.signup-background {
+  width: 50%;
+  height: 100vh;
+  background-color: #00cec9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.headlines {
+  font-family: "Arvo", serif;
+}
+
+.signup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px; */
+  /* margin-left: 500px; */
+/* } */
+
+/* .login-headline {
+  margin-top: 300px;
+}
+
+.login-img {
+  margin-top: 257px;
+}
+
+.signup-headline-1 {
+  margin-top: 300px;
+}
+
+.signup-img {
+  margin-top: 250px;
+}
+.preferences-background {
+  
+  height: 140vh;
+  background-color: #D1FAF2;
+  display: flex;
+  width: 50%;
+  
+  align-items: center;
+  text-align: center;
+}
+.preferences-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.preferences-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:50%;
+}
+
+.preferences-img {
+  margin-top: 590px;
+}
+.logout-btn {
+  margin-right: 0px;
+  font-family: "Arvo", serif;
+  color: black;
+  border-color: black;
+  font-size: 1.5rem;
+  margin-left: 100px;
+
+}
+
+.logout-btn:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+.preferences-headlines {
+  margin-top: 300px;
+}
+
+.pref-labels {
+  width: 300px;
+}
+
+.preferences-labels {
+  font-size: 1.5rem;
+}
+
+.preferences-submit-btn {
+  display: block;
+  margin-top: 30px;
+  margin-left: 295px;
+  width: 140px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: white;
+  font-family: "Arvo", serif;
+  border: 1px solid black;
+  font-size: 1.5rem;
+}
+
+.sl-labels{
+  margin-left: 180px;
+}
+.sl-btn{
+  margin-left: 280px;
+}
+.schedule-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.schedule-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:50%;
+  background-color: #D1FAF2;
+}
+.schedule2-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:50%;
+}
+
+.schedule-submit-btn {
+  margin-right: 295px;
+}
+
+.schedule-text {
+  font-family: "Arvo", serif;
+  margin-top: 30px;
+}
+
+.schedule-text2 {
+  margin-left: 280px;
+}
+
+.sched-input {
+  width: 300px;
+} */
+
+
+
+
+
+/* //RE GOTTEN_CODE */
+
 @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 
 .logo-div {
@@ -273,40 +592,22 @@
 .sl-btn{
   margin-left: 280px;
 }
-.schedule-div {
-  display: flex;
-  flex-direction: row;
-}
 
 .schedule-content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width:50%;
-  background-color: #D1FAF2;
-}
-.schedule2-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width:50%;
-}
-
-.schedule-submit-btn {
-  margin-right: 295px;
-}
-
-.schedule-text {
+  width: 50%;
+  margin-top: 0px;
+  background-color: white;
   font-family: "Arvo", serif;
-  margin-top: 30px;
 }
 
-.schedule-text2 {
-  margin-left: 280px;
-}
+.schedule-schedule {
+  display: flex;
+  width: 50%;
 
-.sched-input {
-  width: 300px;
+  margin-top: 0px;
+  background-color: #00cecb54;
+  font-family: "Arvo", serif;
+  align-items: center;
+
 }
