@@ -3,7 +3,8 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
 import {
   getAuth,
-  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  onAuthStateChanged,
 } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-auth.js";
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -38,9 +39,6 @@ const pwdInput = document.querySelector(".form-pwd-login");
 const submitBtn = document.querySelector(".form-submit-login");
 
 submitBtn.addEventListener("click", (e) => {
-  window.location.href = "schedule.html";
-  alert("HI");
-
   const email = emailInput.value;
   const pwd = pwdInput.value;
 
@@ -51,13 +49,30 @@ submitBtn.addEventListener("click", (e) => {
   signInWithEmailAndPassword(auth, email, pwd)
     .then((userCredential) => {
       // Signed in
-      const user = userCredential.user;
-      console.log("IN");
-      window.location.href = "schedule.html";
+    //   const user = userCredential.user;
+    //   console.log("IN");
+    //   window.location.href = "schedule.html";
       // ...
+      alert('login successful')
     })
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
     });
+});
+
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    // User is signed in, see docs for a list of available properties
+    // https://firebase.google.com/docs/reference/js/firebase.User
+    //const uid = user.uid;
+    // ...
+    window.location =
+      location.protocol + "//" + location.host + "/schedule.html";
+  } else {
+    // User is signed out
+    // ...
+    window.location =
+      location.protocol + "//" + location.host + "/schedule.html";
+  }
 });

@@ -273,3 +273,22 @@
 .sl-btn{
   margin-left: 280px;
 }
+
+.schedule-content {
+  display: flex;
+  width: 50%;
+  margin-top: 0px;
+  background-color: white;
+  font-family: "Arvo", serif;
+}
+
+.schedule-schedule {
+  display: flex;
+  width: 50%;
+
+  margin-top: 0px;
+  background-color: #00cecb54;
+  font-family: "Arvo", serif;
+  align-items: center;
+
+}

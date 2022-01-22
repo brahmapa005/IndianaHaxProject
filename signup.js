@@ -1,7 +1,10 @@
 // Import the functions you need from the SDKs you need
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
-import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-auth.js";
+import {
+  getAuth,
+  createUserWithEmailAndPassword,
+} from "https://www.gstatic.com/firebasejs/9.6.4/firebase-auth.js";
 
 // TODO: Add SDKs for Firebase products that you want to use
 
@@ -35,16 +38,30 @@ const pwdInput = document.querySelector(".form-pwd-signup");
 const submitBtn = document.querySelector(".form-submit-signup");
 
 submitBtn.addEventListener("click", (e) => {
-    const email = emailInput.value;
-    const pwd = pwdInput.value;
+  const email = emailInput.value;
+  const pwd = pwdInput.value;
 
-    e.preventDefault();
+  e.preventDefault();
 
-    createUserWithEmailAndPassword(auth, email, pwd).then((userCredential) => {
-        const user = userCredential.user;
-        alert("Created user successfully");
-    })
+  createUserWithEmailAndPassword(auth, email, pwd).then((userCredential) => {
+    const user = userCredential.user;
+    console.log("hi", user.uid);
+    //alert("Created user successfully");
 
-    window.location.href="preferences.html";
+    window.location =
+      location.protocol + "//" + location.host + "/preferences.html";
 
+
+
+    //window.location.href="preferences.html"+ "?"+ user.uid;
+    // const url = location.protocol + "//" + location.host + "/schedule.html";
+    // let newUrl = new URL(url);
+    // let params = new URLSearchParams(newUrl.search);
+
+    // //Add a second foo parameter.
+    // params.append("uid", user.uid);
+    // window.location = newUrl;
+
+    localStorage.setItem("id", user.uid);
+  });
 });
